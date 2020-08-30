@@ -9,5 +9,7 @@ Some small projects to practice Android Basics with Kotlin
 </ul>
 
 # Calculator
+ <ul>-Simple layout design with TableLayout, LinearLayout </ul>
+ <ul><img src="https://i.imgur.com/59zcmOm.png" alt="Calculator">
+</ul>
 
-<img src="https://i.imgur.com/59zcmOm.png" alt="Calculator">
