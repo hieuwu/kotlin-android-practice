@@ -7,3 +7,5 @@ Some small projects to practice Android Basics with Kotlin
   <ul>-Handle simple logic for game playing</ul>
   
 # Calculator
+
+<img src="https://i.imgur.com/59zcmOm.png" alt="Calculator">
