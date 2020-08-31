@@ -12,12 +12,15 @@
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:ems="10"
-        android:gravity="bottom|right"
-        android:inputType="number"
+        android:gravity="center|right"
+        android:inputType="textLongMessage|textMultiLine|text"
+        android:maxLines="3"
+        android:singleLine="false"
         android:text="0"
+        android:textAlignment="textEnd"
         android:textSize="48sp"
         android:textStyle="bold" />
 
@@ -30,16 +33,18 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnAC"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
                 android:text="AC"
+                android:onClick="btnClick"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnPlusMinus"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -48,8 +53,9 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btnPercent"
                 android:layout_width="30pt"
+                android:onClick="btnClick"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
@@ -57,7 +63,8 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btnDivide"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -72,7 +79,8 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btn5"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -81,16 +89,18 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btn6"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="8"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/btn7"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -99,7 +109,8 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/btnMultiple"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -114,7 +125,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/btn9"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
+                android:text="4"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_weight="1"
+                android:background="@color/colorGrayBlur"
+                android:text="5"
+                android:onClick="btnClick"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -123,26 +155,9 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/btnMinus"
                 android:layout_width="30pt"
-                android:layout_height="30pt"
-                android:layout_weight="1"
-                android:background="@color/colorGrayBlur"
-                android:text="5"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
-                android:layout_weight="1"
-                android:background="@color/colorGrayBlur"
-                android:text="4"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/button15"
-                android:layout_width="30pt"
+                android:onClick="btnClick"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
@@ -156,34 +171,38 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/btn13"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
+                android:onClick="btnClick"
                 android:background="@color/colorGrayBlur"
                 android:text="1"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/btn14"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
                 android:text="2"
+                android:onClick="btnClick"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/btn15"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
+                android:onClick="btnClick"
                 android:background="@color/colorGrayBlur"
                 android:text="3"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/btnPlus"
+                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -206,7 +225,8 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn17"
+            android:onClick="btnClick"
             android:layout_width="60pt"
             android:layout_height="30pt"
             android:layout_weight="2"
@@ -215,7 +235,8 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnDot"
+            android:onClick="btnClick"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
@@ -224,7 +245,8 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnEqual"
+            android:onClick="btnClick"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
