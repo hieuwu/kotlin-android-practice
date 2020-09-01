@@ -64,11 +64,11 @@
 
             <Button
                 android:id="@+id/btnDivide"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
+                android:onClick="btnOpClick"
                 android:text="/"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -110,11 +110,11 @@
 
             <Button
                 android:id="@+id/btnMultiple"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
+                android:onClick="btnOpClick"
                 android:text="*"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -157,10 +157,10 @@
             <Button
                 android:id="@+id/btnMinus"
                 android:layout_width="30pt"
-                android:onClick="btnClick"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
+                android:onClick="btnOpClick"
                 android:text="-"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -202,11 +202,11 @@
 
             <Button
                 android:id="@+id/btnPlus"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
+                android:onClick="btnClick"
                 android:text="+"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -246,13 +246,13 @@
 
         <Button
             android:id="@+id/btnEqual"
-            android:onClick="btnClick"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/colorLightOrange"
             android:text="="
             android:textColor="#FFFFFF"
+            android:onClick="btnEqualEvent"
             android:textSize="24sp" />
     </LinearLayout>
 

@@ -15,8 +15,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun btnClick(view: View) {
-        var entryData = editTextNumber.text.toString()
+        var entryData = ""
         val selectedButton = view as Button
+        if (isNewOp == true) {
+            editTextNumber.setText("")
+        }
+        isNewOp = false
         when (selectedButton.id) {
             btnAC.id -> {
                 entryData = "0"
@@ -27,21 +31,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             btnPercent.id -> {
-                if (entryData.last() != '%') {
-                    entryData += "%"
-                }
-            }
-            btnDivide.id -> {
-                if (entryData.last() != '/') {
-                    entryData += "/"
-                }
-            }
-            btnMultiple.id -> {
-                if (entryData.last() != 'x') {
-                    entryData += "x"
-                }
-            }
-            btnMinus.id -> {
                 if (entryData.last() != '%') {
                     entryData += "%"
                 }
@@ -74,11 +63,6 @@ class MainActivity : AppCompatActivity() {
                 entryData += "9"
 
             }
-            btnPlus.id -> {
-                if (entryData.last() != '+') {
-                    entryData += "+"
-                }
-            }
             btn17.id -> {
                 entryData += "0"
             }
@@ -89,5 +73,56 @@ class MainActivity : AppCompatActivity() {
             }
         }
         editTextNumber.setText(entryData)
+    }
+
+    var operation = "*"
+    var oldNumber = "0"
+    var isNewOp = true
+    fun btnOpClick(view: View) {
+        val selectedButton = view as Button
+        var entryData = editTextNumber.text.toString()
+        when (selectedButton.id) {
+            btnPlus.id -> {
+                operation = "+"
+            }
+
+            btnMinus.id -> {
+                operation = "-"
+            }
+
+            btnDivide.id -> {
+                operation = "/"
+            }
+
+            btnMultiple.id -> {
+                operation = "x"
+            }
+
+        }
+        oldNumber = editTextNumber.text.toString()
+        isNewOp = true
+    }
+
+    fun btnEqualEvent(view: View) {
+        var newNumber = editTextNumber.text.toString()
+        var result: Double? = null
+        when (operation) {
+            "+" -> {
+                result = oldNumber.toDouble() + newNumber.toDouble()
+            }
+            "-" -> {
+                result = oldNumber.toDouble() - newNumber.toDouble()
+
+            }
+            "*" -> {
+                result = oldNumber.toDouble() * newNumber.toDouble()
+
+            }
+            "/" -> {
+                result = oldNumber.toDouble() / newNumber.toDouble()
+            }
+        }
+        editTextNumber.setText(result?.toInt().toString())
+        isNewOp = true
     }
 }
