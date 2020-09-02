@@ -23,7 +23,7 @@ Some small projects to practice Android Basics with Kotlin
   <li>Name that new file by the name of the root activity.And the directory shoud follow this convention: layout-ldpi or layout-xxxhdpi </li>
   <li>Use Design tab and choose the device with suitable kind of screen to see your layout in that screen</li>
   <li>Change the layout if needed</li>
-</ol>
+ </ol>
   </ul>
  <ul><img src="https://i.imgur.com/ylZF0O8.png" alt="Calculator">
 </ul>
