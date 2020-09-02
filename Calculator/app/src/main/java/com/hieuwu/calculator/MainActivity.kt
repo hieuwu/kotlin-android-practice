@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun btnClick(view: View) {
-        var entryData = ""
+        var entryData = editTextNumber.text.toString()
         val selectedButton = view as Button
         if (isNewOp == true) {
             editTextNumber.setText("")
@@ -78,6 +78,7 @@ class MainActivity : AppCompatActivity() {
     var operation = "*"
     var oldNumber = "0"
     var isNewOp = true
+
     fun btnOpClick(view: View) {
         val selectedButton = view as Button
         var entryData = editTextNumber.text.toString()
@@ -95,11 +96,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             btnMultiple.id -> {
-                operation = "x"
+                operation = "*"
             }
 
         }
         oldNumber = editTextNumber.text.toString()
+        editTextNumber.setText("")
+        textOperation.setText(operation)
         isNewOp = true
     }
 
@@ -122,7 +125,7 @@ class MainActivity : AppCompatActivity() {
                 result = oldNumber.toDouble() / newNumber.toDouble()
             }
         }
-        editTextNumber.setText(result?.toInt().toString())
+        editTextNumber.setText(result.toString())
         isNewOp = true
     }
 }

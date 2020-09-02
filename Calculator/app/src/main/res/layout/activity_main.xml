@@ -24,6 +24,12 @@
         android:textSize="48sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -38,27 +44,27 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
-                android:text="AC"
                 android:onClick="btnClick"
+                android:text="AC"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btnPlusMinus"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnOpClick"
                 android:text="+/_"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btnPercent"
                 android:layout_width="30pt"
-                android:onClick="btnClick"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="%"
                 android:textSize="24sp" />
 
@@ -80,11 +86,11 @@
 
             <Button
                 android:id="@+id/btn5"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="7"
                 android:textSize="24sp" />
 
@@ -100,11 +106,11 @@
 
             <Button
                 android:id="@+id/btn7"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="9"
                 android:textSize="24sp" />
 
@@ -140,17 +146,17 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
-                android:text="5"
                 android:onClick="btnClick"
+                android:text="5"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn11"
-                android:onClick="btnClick"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="6"
                 android:textSize="24sp" />
 
@@ -175,8 +181,8 @@
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
-                android:onClick="btnClick"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="1"
                 android:textSize="24sp" />
 
@@ -186,8 +192,8 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorGrayBlur"
-                android:text="2"
                 android:onClick="btnClick"
+                android:text="2"
                 android:textSize="24sp" />
 
             <Button
@@ -195,8 +201,8 @@
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
-                android:onClick="btnClick"
                 android:background="@color/colorGrayBlur"
+                android:onClick="btnClick"
                 android:text="3"
                 android:textSize="24sp" />
 
@@ -206,7 +212,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/colorLightOrange"
-                android:onClick="btnClick"
+                android:onClick="btnOpClick"
                 android:text="+"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -215,8 +221,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        </TableRow>
+            android:layout_height="match_parent"></TableRow>
     </TableLayout>
 
     <LinearLayout
@@ -226,21 +231,21 @@
 
         <Button
             android:id="@+id/btn17"
-            android:onClick="btnClick"
             android:layout_width="60pt"
             android:layout_height="30pt"
             android:layout_weight="2"
             android:background="@color/colorGrayBlur"
+            android:onClick="btnClick"
             android:text="0"
             android:textSize="24sp" />
 
         <Button
             android:id="@+id/btnDot"
-            android:onClick="btnClick"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/colorGrayBlur"
+            android:onClick="btnClick"
             android:text="."
             android:textSize="24sp" />
 
@@ -250,9 +255,9 @@
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/colorLightOrange"
+            android:onClick="btnEqualEvent"
             android:text="="
             android:textColor="#FFFFFF"
-            android:onClick="btnEqualEvent"
             android:textSize="24sp" />
     </LinearLayout>
 
