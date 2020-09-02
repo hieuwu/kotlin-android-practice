@@ -1,5 +1,5 @@
 # kotlin-android-practice
-Some small projects to practice Android Basics with Kotlin
+Some small projects to practice Android Basics with Kotlin for beginners. Every project in this repository is simplest. Besides making your own project following this, you should improve the UI for better look and feel, or maybe add more functionalities to upgrade your skill. Happy coding !
 
 # Tictactoe
   <ul>-Simple layout design with TableLayout </ul>
