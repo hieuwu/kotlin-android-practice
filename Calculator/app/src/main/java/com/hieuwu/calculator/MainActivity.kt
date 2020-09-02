@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         when (selectedButton.id) {
             btnAC.id -> {
                 entryData = "0"
+                isNewOp == true
             }
             btnPlusMinus.id -> {
                 if (entryData[0] != '-') {
