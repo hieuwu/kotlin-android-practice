@@ -16,6 +16,10 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
    when a player win
    
    ![](https://i.imgur.com/De3BQXr.png)
+   
+**References:**
+- [Button](https://developer.android.com/reference/android/widget/Button)
+
 
 # Calculator
 
@@ -42,6 +46,9 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  4.  Change the layout if needed
 
 ![](https://i.imgur.com/ylZF0O8.png)
+
+**References:**
+- [EditText](https://developer.android.com/reference/android/widget/EditText)
 
 # Disneyworld
  - Play with Google Map SDK Android
