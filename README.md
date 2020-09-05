@@ -14,6 +14,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  - Uprade the board from 3x3 to NxN 
  - Re-implement the function to check
    when a player win
+   
    ![](https://i.imgur.com/De3BQXr.png)
 
 # Calculator
@@ -26,6 +27,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  **Multiple screens Instruction:**
  These are some kind of screens that you have to support: ldpi, mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi
  You have to do this for every Ativity that you need it to be supported.
+ 
  **To do:**
 
  1. Add new resource file in layout folder
