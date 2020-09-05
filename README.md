@@ -28,7 +28,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  These are some kind of screens that you have to support: ldpi, mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi
  You have to do this for every Ativity that you need it to be supported.
  
- **To do:**
+ **Follow these steps:**
 
  1. Add new resource file in layout folder
     
