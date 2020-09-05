@@ -5,8 +5,11 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
   <ul>-Simple layout design with TableLayout </ul>
   <ul>-Handle click event to change button's attributes </ul>
   <ul>-Handle simple logic for game playing</ul>
-  <ul><img src="https://i.imgur.com/De3BQXr.png" alt="Tictactoe">
-</ul>
+  <b>Improvement:</b>
+  <ul>-Uprade the board from 3x3 to NxN</ul>
+  <ul>-Re-implement the function to check when a player win</ul>
+  <ul><img src="https://i.imgur.com/De3BQXr.png" alt="Tictactoe"></ul>
+
 
 # Calculator
  <ul>-Simple layout design with TableLayout, LinearLayout </ul>
