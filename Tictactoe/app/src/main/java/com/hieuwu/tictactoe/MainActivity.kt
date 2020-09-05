@@ -98,9 +98,9 @@ class MainActivity : AppCompatActivity() {
         }
         if (winner != -1) {
             if (winner == 1) {
-                Toast.makeText(this,"Player 1 win",Toast.LENGTH_LONG)
+                Toast.makeText(this,"Player 1 win",Toast.LENGTH_LONG).show()
             } else {
-                Toast.makeText(this,"Player 2 win",Toast.LENGTH_LONG)
+                Toast.makeText(this,"Player 2 win",Toast.LENGTH_LONG).show()
             }
         }
     }
