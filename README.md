@@ -19,6 +19,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
    
 **References:**
 - [Button](https://developer.android.com/reference/android/widget/Button)
+- [Declaring Variables Kotlin](https://kotlinlang.org/docs/tutorials/kotlin-for-py/declaring-variables.html)
 - [Control Flow Kotlin](https://kotlinlang.org/docs/reference/control-flow.html)
 - [ArrayList Kotlin](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/)
 - [Function Kotlin](https://kotlinlang.org/docs/reference/functions.html)
