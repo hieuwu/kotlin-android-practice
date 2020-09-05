@@ -8,14 +8,10 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  - Handle click event to change
    button's attributes   
  - Handle simple logic for game playing
-
-  **Improvement:**
-
- - Uprade the board from 3x3 to NxN 
- - Re-implement the function to check
-   when a player win
+   
    
    ![](https://i.imgur.com/De3BQXr.png)
+   
    
 **References:**
 - [Button](https://developer.android.com/reference/android/widget/Button)
