@@ -22,8 +22,8 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 
 # Calculator
 
-- Simple layout design with TableLayout, LinearLayout Support multiple
-   screens sizes 
+- Simple layout design with TableLayout, LinearLayout
+- Support multiple screens sizes 
 - Handle calculating operations "+ - * /". The +/- and %
    is your part
 
