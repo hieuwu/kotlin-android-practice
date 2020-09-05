@@ -20,7 +20,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 **References:**
 - [Button](https://developer.android.com/reference/android/widget/Button)
 - [Control Flow Kotlin](https://kotlinlang.org/docs/reference/control-flow.html)
-
+- [ArrayList Kotlin](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/)
 
 # Calculator
 
