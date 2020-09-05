@@ -1,43 +1,53 @@
+
 # kotlin-android-practice
 Some small projects to practice Android Basics with Kotlin for beginners. Every project in this repository is simplest. Besides making your own project following this, you should improve the UI for better look and feel, or maybe add more functionalities to upgrade your skill. Happy coding !
 
 # Tictactoe
-  <ul>-Simple layout design with TableLayout </ul>
-  <ul>-Handle click event to change button's attributes </ul>
-  <ul>-Handle simple logic for game playing</ul>
-  <b>Improvement:</b>
-  <ul>-Uprade the board from 3x3 to NxN</ul>
-  <ul>-Re-implement the function to check when a player win</ul>
-  <ul><img src="https://i.imgur.com/De3BQXr.png" alt="Tictactoe"></ul>
 
+ - Simple layout design with TableLayout    
+ - Handle click event to change
+   button's attributes   
+ - Handle simple logic for game playing
+
+  **Improvement:**
+
+ - Uprade the board from 3x3 to NxN 
+ - Re-implement the function to check
+   when a player win
+   ![](https://i.imgur.com/De3BQXr.png)
 
 # Calculator
- <ul>-Simple layout design with TableLayout, LinearLayout </ul>
- <ul>-Support multiple screens sizes</ul>
- <ul>-Handle calculating operations "+ - * /". The +/- and % is your part</ul>
- <b>Multiple screens Instruction:</b>
+
+ 1. Simple layout design with TableLayout, LinearLayout Support multiple
+   screens sizes 
+ 2. Handle calculating operations "+ - * /". The +/- and %
+   is your part
+
+ **Multiple screens Instruction:**
  These are some kind of screens that you have to support: ldpi, mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi
  You have to do this for every Ativity that you need it to be supported.
- To do:
- <ol>
-  <li>Add new resource file in layout folder</li>
-  <li>Name that new file by the name of the root activity.And the directory shoud follow this convention: layout-ldpi or layout-xxxhdpi </li>
-  <li>Use Design tab and choose the device with suitable kind of screen to see your layout in that screen</li>
-  <li>Change the layout if needed</li>
- </ol>
- <ul><img src="https://i.imgur.com/ylZF0O8.png" alt="Calculator">
-</ul>
+ **To do:**
+
+ 1. Add new resource file in layout folder
+    
+ 2.  Name that new file by the name of the root activity. And the
+    directory shoud follow this convention: layout-ldpi or
+    layout-xxxhdpi
+    
+ 3.   Use Design tab and choose the device with suitable kind of screen to
+    see your layout in that screen
+    
+ 4.  Change the layout if needed
+
+![](https://i.imgur.com/ylZF0O8.png)
 
 # Disneyworld
- <ul>-Play with Google Map SDK Android </ul>
- <b>References:</b>
- 
- 
-    [Request App Permission](https://developer.android.com/training/permissions/requesting)
-    [BitMapDescriptor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptor)
-    [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
-    
-    
-# License
+ - Play with Google Map SDK Android
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Kotlin Android Practice</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License. </a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hieuwu/kotlin-android-practice" rel="dct:source">https://github.com/hieuwu/kotlin-android-practice</a>.
+**References:**
+ 
+- [Request App Permission](https://developer.android.com/training/permissions/requesting)
+- [BitMapDescriptor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptor)
+- [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
+
+    
