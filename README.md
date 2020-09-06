@@ -48,6 +48,8 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 
 **References:**
 - [EditText](https://developer.android.com/reference/android/widget/EditText)
+- [Support Different Screens](https://developer.android.com/training/multiscreen/screensizes)
+
 
 # Disneyworld
  - Play with Google Map SDK Android
@@ -55,7 +57,12 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 **References:**
  
 - [Request App Permission](https://developer.android.com/training/permissions/requesting)
+- [BitMapDescriptorFactor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptorFactory)
 - [BitMapDescriptor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptor)
+- [LocationListener](https://developer.android.com/reference/android/location/LocationListener)
+- [LocationManager](https://developer.android.com/reference/android/location/LocationManager)
+- [Marker](https://developers.google.com/maps/documentation/android-sdk/marker)
+- [Thread Kotlin](https://medium.com/@korhanbircan/multithreading-and-kotlin-ac28eed57fea)
 - [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
 
 # License
