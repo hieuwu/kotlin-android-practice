@@ -200,7 +200,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         var profileMarker = resizeMarkerIcon(R.drawable.profile,200,200)
                         val currentLocation = LatLng(location!!.latitude, location!!.longitude)
                         mMap.addMarker(MarkerOptions().position(currentLocation).title("Me").snippet("Here is my location").icon(profileMarker))
-                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation,2f))
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation,10f))
                         for(i in 0 until listCharacters.size) {
                             var aCharacter = listCharacters.get(i)
                             var characterMarker = resizeMarkerIcon(aCharacter.image!!,200,200)
