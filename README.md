@@ -67,7 +67,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 - [Map Types](https://developers.google.com/maps/documentation/android-sdk/map#map_types)
 - [Menu](https://developer.android.com/guide/topics/ui/menus?hl=vi)
 - [Toolbar](https://developer.android.com/training/appbar/setting-up)
-- [Thread Kotlin](https://medium.com/@korhanbircan/multithreading-and-kotlin-ac28eed57fea)
+- [Multithread Kotlin](https://medium.com/@korhanbircan/multithreading-and-kotlin-ac28eed57fea)
 - [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
 - [Classes and Inheritance Kotlin](https://kotlinlang.org/docs/reference/classes.html)
 - [Interfaces Kotlin](https://kotlinlang.org/docs/reference/interfaces.html)
