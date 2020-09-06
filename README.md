@@ -54,7 +54,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
  - Add toolbar menu to perform some actions
  - Use Thread, GPS service to get location continuously
  
- ![](https://i.imgur.com/XCWDpwd.png)
+ ![](https://i.imgur.com/J4lPrHO.png)
 
 **References:**
  
