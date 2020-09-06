@@ -9,9 +9,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
    button's attributes   
  - Handle simple logic for game playing
    
-   
    ![](https://i.imgur.com/De3BQXr.png)
-   
    
 **References:**
 - [Button](https://developer.android.com/reference/android/widget/Button)
@@ -62,10 +60,14 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 - [LocationListener](https://developer.android.com/reference/android/location/LocationListener)
 - [LocationManager](https://developer.android.com/reference/android/location/LocationManager)
 - [Marker](https://developers.google.com/maps/documentation/android-sdk/marker)
+- [Map Types](https://developers.google.com/maps/documentation/android-sdk/map#map_types)
+- [Menu](https://developer.android.com/guide/topics/ui/menus?hl=vi)
+- [Toolbar](https://developer.android.com/training/appbar/setting-up)
 - [Thread Kotlin](https://medium.com/@korhanbircan/multithreading-and-kotlin-ac28eed57fea)
 - [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
 - [Classes and Inheritance Kotlin](https://kotlinlang.org/docs/reference/classes.html)
 - [Interfaces Kotlin](https://kotlinlang.org/docs/reference/interfaces.html)
+- [Excptions: try, catch Kotlin](https://kotlinlang.org/docs/reference/exceptions.html)
 
 # License
 
