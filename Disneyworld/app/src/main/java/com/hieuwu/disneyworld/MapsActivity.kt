@@ -11,20 +11,21 @@ import android.location.LocationManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.*
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import com.google.android.gms.maps.*
 
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptor
-import com.google.android.gms.maps.model.BitmapDescriptorFactory
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.*
+import kotlinx.android.synthetic.main.activity_maps.view.*
 import java.lang.Exception
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+    override fun onCreateOptionsMenu(menu: Menu) : Boolean {
+        var inflater:MenuInflater = menuInflater
+        inflater.inflate(R.menu.appbar_menu, menu);
+        return true;
+    }
 
     private lateinit var mMap: GoogleMap
     var listCharacters = ArrayList<DisneyCharacter>()
