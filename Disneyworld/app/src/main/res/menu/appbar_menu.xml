@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never">
+        <item
+            android:id="@+id/action_edit"
+            android:title="Change map type"
+            app:showAsAction="never">
+            <menu xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+                <item
+                    android:id="@+id/set_hybrid"
+                    android:title="Hybrid"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/set_normal"
+                    android:title="Normal"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/set_satelline"
+                    android:title="Satelline"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/set_terrain"
+                    android:title="Terrain"
+                    app:showAsAction="never" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/action_change"
+            android:title="Change view angle"
+            app:showAsAction="never">
+            <menu xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+                <item
+                    android:id="@+id/set_default"
+                    android:title="Default"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/set_angle_45"
+                    android:title="45 degree"
+                    app:showAsAction="never" />
 
+            </menu>
+        </item>
+    </item>
 </menu>
