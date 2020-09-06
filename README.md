@@ -50,7 +50,11 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 
 
 # Disneyworld
- - Play with Google Map SDK Android
+ - Play with Google Map SDK Android: change map types, view angle
+ - Add toolbar menu to perform some actions
+ - Use Thread, GPS service to get location continuously
+ 
+ ![](https://i.imgur.com/XCWDpwd.png)
 
 **References:**
  
@@ -67,7 +71,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 - [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
 - [Classes and Inheritance Kotlin](https://kotlinlang.org/docs/reference/classes.html)
 - [Interfaces Kotlin](https://kotlinlang.org/docs/reference/interfaces.html)
-- [Excptions: try, catch Kotlin](https://kotlinlang.org/docs/reference/exceptions.html)
+- [Exceptions: try, catch Kotlin](https://kotlinlang.org/docs/reference/exceptions.html)
 
 # License
 
