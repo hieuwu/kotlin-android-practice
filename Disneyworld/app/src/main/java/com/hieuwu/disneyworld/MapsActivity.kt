@@ -1,5 +1,6 @@
 package com.hieuwu.disneyworld
 
+import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -54,6 +55,23 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         Toast.makeText(this,"Location access allowed !", Toast.LENGTH_LONG).show()
         var myLocation = MyLocationListener()
         var locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_COARSE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return
+        }
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 3,3f,myLocation)
         var myThread = myThread()
         myThread.start()
@@ -141,12 +159,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         var profileMarker = resizeMarkerIcon(R.drawable.profile,200,200)
                         val currentLocation = LatLng(location!!.latitude, location!!.longitude)
                         mMap.addMarker(MarkerOptions().position(currentLocation).title("Me").snippet("Here is my location").icon(profileMarker))
-                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation,10f))
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation,2f))
                         for(i in 0 until listCharacters.size) {
                             var aCharacter = listCharacters.get(i)
                             var characterMarker = resizeMarkerIcon(aCharacter.image!!,200,200)
-                            val characterLocation = LatLng(aCharacter.lat!!,aCharacter.long!!)
+                            val characterLocation = LatLng(aCharacter.location!!.latitude,aCharacter.location!!.longitude)
                             mMap.addMarker(MarkerOptions().position(characterLocation).title(aCharacter.name).snippet(aCharacter.description).icon(characterMarker))
+                            if (location!!.distanceTo(aCharacter.location) < 600) {
+                                Toast.makeText(applicationContext,"You met "+ aCharacter.name,Toast.LENGTH_LONG).show()
+                            }
                         }
                     }
                     Thread.sleep(1000)
