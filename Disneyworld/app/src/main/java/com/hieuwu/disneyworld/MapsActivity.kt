@@ -39,7 +39,46 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         LoadCharacter ()
         checkPermission()
     }
-
+    override fun onOptionsItemSelected(item: MenuItem) :Boolean {
+        // Handle item selection
+        when (item.itemId) {
+            R.id.action_settings -> {
+                return true
+            }
+            R.id.set_hybrid -> {
+                mMap.mapType = GoogleMap.MAP_TYPE_HYBRID
+                return true
+            }
+            R.id.set_normal -> {
+                mMap.mapType = GoogleMap.MAP_TYPE_NORMAL
+                return true
+            }
+            R.id.set_satelline -> {
+                mMap.mapType = GoogleMap.MAP_TYPE_SATELLITE
+                return true
+            }
+            R.id.set_terrain -> {
+                mMap.mapType = GoogleMap.MAP_TYPE_TERRAIN
+                return true
+            }
+            R.id.set_angle_45 -> {
+                val latlong = LatLng(location!!.latitude,location!!.longitude)
+                val cameraPosition = CameraPosition.Builder()
+                    .target(latlong) // Sets the center of the map to Mountain View
+                    .zoom(10f)
+                    .tilt(45f) // Sets the tilt of the camera to 30 degrees
+                    .build() // Creates a CameraPosition from the builder
+                mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition))
+            return true
+            }
+            R.id.set_default -> {
+                val latlong = LatLng(location!!.latitude,location!!.longitude)
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latlong,10f))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
     var ACCESSLOCATION = 123
     fun checkPermission() {
         if(Build.VERSION.SDK_INT >= 23) {
