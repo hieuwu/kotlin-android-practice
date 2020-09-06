@@ -90,7 +90,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
         GetUserLocation()
     }
-
     fun GetUserLocation() {
         Toast.makeText(this,"Location access allowed !", Toast.LENGTH_LONG).show()
         var myLocation = MyLocationListener()
