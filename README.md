@@ -64,6 +64,8 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 - [Marker](https://developers.google.com/maps/documentation/android-sdk/marker)
 - [Thread Kotlin](https://medium.com/@korhanbircan/multithreading-and-kotlin-ac28eed57fea)
 - [Nested and Inner Class Kotlin](https://kotlinlang.org/docs/reference/nested-classes.html)
+- [Classes and Inheritance Kotlin](https://kotlinlang.org/docs/reference/classes.html)
+- [Interfaces Kotlin](https://kotlinlang.org/docs/reference/interfaces.html)
 
 # License
 
