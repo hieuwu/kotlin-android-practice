@@ -2,6 +2,10 @@
 # kotlin-android-practice
 Some small projects to practice Android Basics with Kotlin for beginners. Every project in this repository is simplest. Besides making your own project following this, you should improve the UI for better look and feel, or maybe add more functionalities to upgrade your skill. Happy coding !
 
+**How to use:**
+1. CLone this repo to your local machine then choose one to open with Android Studio
+2. For each project, you should overview the code inside the activity first, if there is something unclear, get back here then read the References part of each project
+
 # Tictactoe
 
  - Simple layout design with TableLayout    
@@ -59,7 +63,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 **References:**
  
 - [Request App Permission](https://developer.android.com/training/permissions/requesting)
-- [BitMapDescriptorFactor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptorFactory)
+- [BitMapDescriptorFactory](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptorFactory)
 - [BitMapDescriptor](https://developers.google.com/android/reference/com/google/android/gms/maps/model/BitmapDescriptor)
 - [LocationListener](https://developer.android.com/reference/android/location/LocationListener)
 - [LocationManager](https://developer.android.com/reference/android/location/LocationManager)
