@@ -26,7 +26,7 @@ class MainActivityViewImplementor: ToDoMainActivityView {
 
     private var todoModel:ToDoModelImplementor
         get() {
-            return this.todoModelImplementor
+            return this.todoModel
         }
         set(value) {}
     private var editTextToDoTitle: EditText
@@ -44,7 +44,7 @@ class MainActivityViewImplementor: ToDoMainActivityView {
     fun MainActivityViewImplementor(context: Context, viewGroup: ViewGroup) {
         viewRoot = LayoutInflater.from(context).inflate(R.layout.activity_main, viewGroup)
         todoModel = ToDoModelImplementor(MyApplication.getToDoListAdapter())
-        todoController = ToDoController(todoModel,this)
+        toDoController = ToDoController(todoModel,this)
     }
     override fun bindDataToView() {
         TODO("Not yet implemented")
