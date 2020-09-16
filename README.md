@@ -79,7 +79,11 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 
 # MVC Pattern Demo
 
-- Updating ...
+- Model: data - Bean classes, database, Content Provider
+- View: user interface - define how to display the data
+- Controller: event handling, navigation, communicator between Model and View
+
+
 
 **References:**
 
