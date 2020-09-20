@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
-import com.hieuwu.mvcdemo.MainActivity
+import com.hieuwu.mvcdemo.MyApplication
 import com.hieuwu.mvcdemo.controller.ToDoController
 import com.hieuwu.mvcdemo.model.bean.ToDo
 import com.hieuwu.mvcdemo.model.bean.db.ToDoModelImplementor

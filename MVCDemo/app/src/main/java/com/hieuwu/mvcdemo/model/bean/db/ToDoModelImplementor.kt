@@ -2,11 +2,12 @@ package com.hieuwu.mvcdemo.model.bean.db
 
 import android.content.res.Resources
 import com.hieuwu.mvcdemo.model.bean.ToDo
+import com.hieuwu.mvcdemo.model.bean.ToDoListAdapter
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
 
-class ToDoModelImplementor: ToDoModel {
+class ToDoModelImplementor(toDoListAdapter: ToDoListAdapter?) : ToDoModel {
     var todoListAdapter:  ToDoListAdapter
     var listOfToDos = ArrayList<ToDo>()
 
