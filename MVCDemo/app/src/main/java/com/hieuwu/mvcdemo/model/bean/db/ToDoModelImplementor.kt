@@ -8,7 +8,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 class ToDoModelImplementor(toDoListAdapter: ToDoListAdapter?) : ToDoModel {
-    var todoListAdapter:  ToDoListAdapter
+    var todoListAdapter:  ToDoListAdapter ?= null
     var listOfToDos = ArrayList<ToDo>()
 
     override fun getAllToDoList(): ArrayList<ToDo> {
@@ -21,31 +21,33 @@ class ToDoModelImplementor(toDoListAdapter: ToDoListAdapter?) : ToDoModel {
 
     override fun addToDoItem(todoItem: ToDo): Boolean {
         TODO("Not yet implemented")
-        var isSuccess: Boolean = todoListAdapter.insert(todoItem)
-        if (isSuccess) {
-            refresh()
-        } else {
-            throw Exception("Something went wrong !")
-        }
-        return isSuccess
+//        var isSuccess: Boolean = todoListAdapter.insert(todoItem)
+//        if (isSuccess) {
+//            refresh()
+//        } else {
+//            throw Exception("Something went wrong !")
+//        }
+//        return isSuccess
     }
 
     override fun removeToDoItem(id: Int): Boolean {
-        var isSuccess = todoListAdapter.delete(id);
-        if (isSuccess) {
-            refresh()
-        } else {
-            throw Resources.NotFoundException("Id is wrong")
-        }
+//        var isSuccess = todoListAdapter.delete(id);
+        var isSuccess = true
+//        if (isSuccess) {
+//            refresh()
+//        } else {
+//            throw Resources.NotFoundException("Id is wrong")
+//        }
         return isSuccess
     }
 
     override fun editToDoItem(atitle: String, aContent: String, modifedAt: Date): Boolean {
-        var isSuccess = todoListAdapter.modify(id: Int, newTodoValue);
-        if (isSuccess) {
-            refresh()
-        } else {
-            throw Exception("Error!")
-        }
+//        var isSuccess = todoListAdapter.modify(id: Int, newTodoValue);
+//        if (isSuccess) {
+//            refresh()
+//        } else {
+//            throw Exception("Error!")
+//        }
+        return true
     }
 }
