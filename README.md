@@ -1,5 +1,7 @@
 
 # kotlin-android-practice
+![CI](https://github.com/hieuwu/kotlin-android-practice/workflows/CI/badge.svg)
+
 Some small projects to practice Android Basics with Kotlin for beginners. Every project in this repository is simplest. Besides making your own project following this, you should improve the UI for better look and feel, or maybe add more functionalities to upgrade your skill. Happy coding !
 
 **How to use:**
