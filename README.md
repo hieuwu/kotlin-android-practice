@@ -139,6 +139,10 @@ buildFeatures {
 11. Change the content of the View to display our data with the name in the `<data>` block. `android:text="@={myName.name}"`
 **Note:** Whenever you change your data, remember to call  `invalidateAll()` method to notify the UI to refresh with new data.
 
+**References:**
+- [Google codelab with Kotlin](https://codelabs.developers.google.com/android-kotlin-fundamentals/)
+
+
 # License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Kotlin Android Practice</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License. </a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hieuwu/kotlin-android-practice" rel="dct:source">https://github.com/hieuwu/kotlin-android-practice</a>.
