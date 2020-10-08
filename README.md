@@ -102,7 +102,7 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 **Problem with findViewById()**
 When our app has complex view hierarchies, `findViewById()` function will slow down the app. Why? Given that you need to access to a View, which is nested in a nested nested nested ViewGroup...Uh ohh...
 
-Android need to traverse all over the view herrachies from the root until get the needed one. If our app has so complex view, it is expensive to find a desired view. What if there is a way for the View know whenever the data changes and we don't need to go so far with expensive `findViewById()`? Use **Data Binding**
+Android need to traverse all over the view herrachies from the root until get the needed one. If our app has so complex view, it is expensive to find a desired view. Is there a way for the View to update whenever the data changes and we don't need to go so far with expensive `findViewById()`? Use **Data Binding**
 
 **Benefits from Data Binding**
 - Code is shorter, easier to read, maintain
