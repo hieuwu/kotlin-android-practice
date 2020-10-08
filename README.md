@@ -97,6 +97,8 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 - Simple layout with LinearLayout
 - Data binding basic technique
 
+![](https://i.imgur.com/FDOtTiG.png)
+
 **Problem with findViewById()**
 When our app has complex view hierarchies, `findViewById()` function will slow down the app. Why? Given that you need to access to a View, which is nested in a nested nested nested ViewGroup...Uh ohh...
 
