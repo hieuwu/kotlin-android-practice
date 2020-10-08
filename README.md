@@ -102,6 +102,39 @@ When our app has complex view hierarchies, `findViewById()` function will slow d
 
 Android need to traverse all over the view herrachies from the root until get the needed one. If our app has so complex view, it is expensive to find a desired view. What if there is a way for the View know whenever the data changes and we don't need to go so far with expensive `findViewById()`? Use **Data Binding**
 
+**Benefits from Data Binding**
+- Code is shorter, easier to read, maintain
+- Data and Views are separated, make it easier for Unit Test
+- Android system only traverses once to get view, during app start up, not at runtime
+- Type safty when access views. We can get exception while compiling and fix it earlier
+
+**Follow these steps:**
+1. Go to `build.gradle`, add this block
+```kotlin
+buildFeatures {
+   dataBinding true
+ }
+```
+2. Wrap the whole layout with `<layout>` as a root view
+3. Define a binding varialbe:
+`private lateint var binding:ActivityMainBinding`
+4. Replace `setContentView` with `binding = DataBindingUtil.setContentView(this, R.layout.activity_main)`
+5. Replace `findViewById()` with references to the view in binding object.
+`findViewById<Button>(R.id.done_button)` =>  `binding.doneButton` (**Note:** name of the view will be the `id` in XML but is defined as camel case)
+6. Create a class for data
+7. Add `<data>` block inside `<layout>` tag
+8. Define `<variable>` with name and type to the data class
+```xml
+<data>
+   <variable
+       name="myName"
+       type="com.example.android.aboutme.MyName" />
+</data>
+```
+9. Back at `MainActivity`, create value for our binding variable. Ex: `private val myName: MyName = MyName("Hieu Vu")`
+10. Bind your data with the variable `binding.myName = myName`
+11. Change the content of the View to display our data with the name in the `<data>` block. `android:text="@={myName.name}"`
+**Note:** Whenever you change your data, remember to call  `invalidateAll()` method to notify the UI to refresh with new data.
 
 # License
 
