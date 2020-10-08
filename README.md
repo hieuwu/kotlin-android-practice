@@ -118,7 +118,7 @@ buildFeatures {
 2. Wrap the whole layout with `<layout>` as a root view
 3. Define a binding varialbe:
 `private lateint var binding:ActivityMainBinding`
-4. Replace `setContentView` with `binding = DataBindingUtil.setContentView(this, R.layout.activity_main)`
+4. Replace `setContentView()` with `binding = DataBindingUtil.setContentView(this, R.layout.activity_main)`
 5. Replace `findViewById()` with references to the view in binding object.
 `findViewById<Button>(R.id.done_button)` =>  `binding.doneButton` (**Note:** name of the view will be the `id` in XML but is defined as camel case)
 6. Create a class for data
@@ -131,6 +131,7 @@ buildFeatures {
        type="com.example.android.aboutme.MyName" />
 </data>
 ```
+
 9. Back at `MainActivity`, create value for our binding variable. Ex: `private val myName: MyName = MyName("Hieu Vu")`
 10. Bind your data with the variable `binding.myName = myName`
 11. Change the content of the View to display our data with the name in the `<data>` block. `android:text="@={myName.name}"`
