@@ -142,7 +142,16 @@ buildFeatures {
 **References:**
 - [Google codelab with Kotlin](https://codelabs.developers.google.com/android-kotlin-fundamentals/)
 
+# Dessert Clicker
 
+- When our application starts, the `onCreate`, `onStart` and `onResume` run orderly
+- At the very first Activity, if we press `Physical Back button` and move to the home screen of the device ,  `onPause`, `onStop`, `onDestroy` run orderly
+- If we reopen the app, it will call three methods `onCreate`, `onStart` and `onResume` again
+- If we press `Home button`, `onPause` and `onStop` are called
+- If we reopen our app, the `onRestart`,   `onStart`,  `onResume` will be called
+- When we press the `Tabs button`, `onPause` and `onStop` will be called
+- Then if we go back to our app, `onRestart`, `onStart`, `onResume` wil be called
+- 
 # License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Kotlin Android Practice</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License. </a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hieuwu/kotlin-android-practice" rel="dct:source">https://github.com/hieuwu/kotlin-android-practice</a>.
