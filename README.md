@@ -168,6 +168,18 @@ buildFeatures {
 - `onDestroyView()`: Called when the fragment's view is no longer needed, to clean up the resources associated with that view.
 
 - To add skeleton override methods to your classes in Android Studio, select **Code > Override** Methods or press`Control+o`.
+**Logging with Timber**
+A logging library better thant the default one. Benefits: 
+- Generates the log tag for you based on the class name.
+- Helps avoid showing logs in a release version of your Android app.
+- Allows for integration with crash reporting libraries.
+
+**Steps to add Timber:**
+1. Add dependencies to `gradle.build`
+2. Create a class extends the `Application` class
+3. In the `onCreate()` of new class, add `Timber.plant(Timber.DebugTree())`
+4. Add `android:name` with your new application class to `<application>` tag
+5. Call with this syntax `Timber.i("Log example")`
 
 # License
 
