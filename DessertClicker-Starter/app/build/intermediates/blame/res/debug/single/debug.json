@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_honeycomb.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\honeycomb.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_dessert_clicker_round.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-hdpi\\ic_dessert_clicker_round.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_box.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\white_box.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_dessert_clicker_round.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_dessert_clicker_round.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gingerbread.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\gingerbread.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_dessert_clicker_round.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-mdpi\\ic_dessert_clicker_round.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icecreamsandwich.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\icecreamsandwich.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_dessert_clicker_round.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xhdpi\\ic_dessert_clicker_round.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bakery_back.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\bakery_back.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_dessert_clicker.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_dessert_clicker.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_dessert_clicker_round.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_dessert_clicker_round.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kitkat.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\kitkat.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lollipop.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\lollipop.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_eclair.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\eclair.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_dessert_clicker.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_dessert_clicker.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jellybean.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\jellybean.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_dessert_clicker.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_dessert_clicker.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_froyo.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\froyo.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nougat.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\nougat.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_dessert_clicker.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-mdpi\\ic_dessert_clicker.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_marshmallow.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\marshmallow.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_dessert_clicker_round.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_dessert_clicker_round.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_dessert_clicker.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-hdpi\\ic_dessert_clicker.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oreo.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\oreo.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_dessert_clicker.png.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\mipmap-xhdpi\\ic_dessert_clicker.png"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_donut.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\donut.xml"
+    },
+    {
+        "merged": "D:\\Android Practice\\DessertClicker-Starter\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cupcake.xml.flat",
+        "source": "D:\\Android Practice\\DessertClicker-Starter\\app\\src\\main\\res\\drawable\\cupcake.xml"
+    }
+]
