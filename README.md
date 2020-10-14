@@ -156,6 +156,13 @@ buildFeatures {
 - Then if we go back to our app, `onRestart()`, `onStart()`, `onResume()` wil be called
 - Whatever code runs in `onPause()` blocks other things from displaying, so keep the code in `onPause()` lightweight. For example, if a phone call comes in, the code in `onPause()` may delay the incoming-call notification.
 
+- `onAttach()`: Called when the fragment is associated with its owner activity.
+- `onCreate()`: Similarly to onCreate() for the activity, onCreate() for the fragment is called to do initial fragment creation (other than layout).
+- `onCreateView()`: Called to inflate the fragment's layout.
+- `onViewCreated()`: Called immediately after onCreateView() has returned, but before any saved state has been restored into the view.
+- `onStart()`: Called when the fragment becomes visible; parallel to the activity's onStart().
+- `onResume()`: Called when the fragment gains the user focus; parallel to the activity's onResume()
+
 # License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Kotlin Android Practice</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License. </a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hieuwu/kotlin-android-practice" rel="dct:source">https://github.com/hieuwu/kotlin-android-practice</a>.
