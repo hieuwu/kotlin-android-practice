@@ -146,6 +146,7 @@ buildFeatures {
 - When `onPause()` is called, the app no longer has focus. After `onStop()`, the app is no longer visible on screen
 - `onCreate()` and `onDestroy()` only run once
 - `onCreate()`: where all your first-time initialization goes, where you set up the layout for the first time by inflating it, and where you initialize your variables, data binding...
+- `onRestart()` method is a place to put code that you only want to call if your activity is not being started for the first time.
 - When our application starts, the `onCreate()`, `onStart()` and `onResume()` run orderly
 - At the very first Activity, if we press `Physical Back button` and move to the home screen of the device ,  `onPause()`, `onStop()`, `onDestroy()` run orderly
 - If we reopen the app, it will call three methods `onCreate()`, `onStart()` and `onResume()` again
@@ -153,6 +154,7 @@ buildFeatures {
 - If we reopen our app, the `onRestart()`,   `onStart()`,  `onResume()` will be called
 - When we press the `Tabs button`, `onPause()` and `onStop()` will be called
 - Then if we go back to our app, `onRestart()`, `onStart()`, `onResume()` wil be called
+- Whatever code runs in `onPause()` blocks other things from displaying, so keep the code in `onPause()` lightweight. For example, if a phone call comes in, the code in `onPause()` may delay the incoming-call notification.
 
 # License
 
