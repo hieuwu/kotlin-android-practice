@@ -143,7 +143,7 @@ buildFeatures {
 - [Google codelab with Kotlin](https://codelabs.developers.google.com/android-kotlin-fundamentals/)
 
 # Dessert Clicker
-
+- `onCreate()` and `onDestroy()` only run once
 - `onCreate()`: where all your first-time initialization goes, where you set up the layout for the first time by inflating it, and where you initialize your variables, data binding...
 - When our application starts, the `onCreate()`, `onStart()` and `onResume()` run orderly
 - At the very first Activity, if we press `Physical Back button` and move to the home screen of the device ,  `onPause()`, `onStop()`, `onDestroy()` run orderly
