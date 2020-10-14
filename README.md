@@ -143,6 +143,7 @@ buildFeatures {
 - [Google codelab with Kotlin](https://codelabs.developers.google.com/android-kotlin-fundamentals/)
 
 # Dessert Clicker
+- When `onPause()` is called, the app no longer has focus. After `onStop()`, the app is no longer visible on screen
 - `onCreate()` and `onDestroy()` only run once
 - `onCreate()`: where all your first-time initialization goes, where you set up the layout for the first time by inflating it, and where you initialize your variables, data binding...
 - When our application starts, the `onCreate()`, `onStart()` and `onResume()` run orderly
@@ -152,7 +153,7 @@ buildFeatures {
 - If we reopen our app, the `onRestart()`,   `onStart()`,  `onResume()` will be called
 - When we press the `Tabs button`, `onPause()` and `onStop()` will be called
 - Then if we go back to our app, `onRestart()`, `onStart()`, `onResume()` wil be called
-- 
+
 # License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Kotlin Android Practice</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License. </a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hieuwu/kotlin-android-practice" rel="dct:source">https://github.com/hieuwu/kotlin-android-practice</a>.
