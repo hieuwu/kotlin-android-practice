@@ -144,13 +144,14 @@ buildFeatures {
 
 # Dessert Clicker
 
-- When our application starts, the `onCreate`, `onStart` and `onResume` run orderly
-- At the very first Activity, if we press `Physical Back button` and move to the home screen of the device ,  `onPause`, `onStop`, `onDestroy` run orderly
-- If we reopen the app, it will call three methods `onCreate`, `onStart` and `onResume` again
-- If we press `Home button`, `onPause` and `onStop` are called
-- If we reopen our app, the `onRestart`,   `onStart`,  `onResume` will be called
-- When we press the `Tabs button`, `onPause` and `onStop` will be called
-- Then if we go back to our app, `onRestart`, `onStart`, `onResume` wil be called
+- `onCreate()`: where all your first-time initialization goes, where you set up the layout for the first time by inflating it, and where you initialize your variables, data binding...
+- When our application starts, the `onCreate()`, `onStart()` and `onResume()` run orderly
+- At the very first Activity, if we press `Physical Back button` and move to the home screen of the device ,  `onPause()`, `onStop()`, `onDestroy()` run orderly
+- If we reopen the app, it will call three methods `onCreate()`, `onStart()` and `onResume()` again
+- If we press `Home button`, `onPause()` and `onStop()` are called
+- If we reopen our app, the `onRestart()`,   `onStart()`,  `onResume()` will be called
+- When we press the `Tabs button`, `onPause()` and `onStop()` will be called
+- Then if we go back to our app, `onRestart()`, `onStart()`, `onResume()` wil be called
 - 
 # License
 
