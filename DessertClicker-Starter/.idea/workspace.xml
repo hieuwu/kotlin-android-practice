@@ -11,9 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edab99cf-e51d-4361-b21b-cfa1d4517ad5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" afterDir="false" />
@@ -140,30 +137,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="286" y="144" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1602640932595" />
-    <state x="944" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1602642704013">
+    <state x="944" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1602746030761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="944" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602642704013" />
+    <state x="944" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602746030761" />
     <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1602646079957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602646079957" />
-    <state width="721" height="210" key="GridCell.Tab.0.bottom" timestamp="1602642356745">
+    <state width="722" height="212" key="GridCell.Tab.0.bottom" timestamp="1602747041826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602642356745" />
-    <state width="721" height="210" key="GridCell.Tab.0.center" timestamp="1602642356743">
+    <state width="722" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602747041826" />
+    <state width="722" height="212" key="GridCell.Tab.0.center" timestamp="1602747041826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602642356743" />
-    <state width="721" height="210" key="GridCell.Tab.0.left" timestamp="1602642356743">
+    <state width="722" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602747041826" />
+    <state width="722" height="212" key="GridCell.Tab.0.left" timestamp="1602747041826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602642356743" />
-    <state width="721" height="210" key="GridCell.Tab.0.right" timestamp="1602642356745">
+    <state width="722" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602747041826" />
+    <state width="722" height="212" key="GridCell.Tab.0.right" timestamp="1602747041826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602642356745" />
+    <state width="722" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602747041826" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1602640452534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
