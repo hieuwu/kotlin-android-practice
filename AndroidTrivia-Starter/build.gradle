@@ -21,6 +21,7 @@ buildscript {
         archLifecycleVersion = '1.1.1'
         gradleVersion = '4.0.1'
         supportlibVersion = '1.2.0'
+        version_navigation = '2.3.1'
         dataBindingCompilerVersion = gradleVersion // Always need to be the same.
     }
     repositories {
