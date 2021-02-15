@@ -92,6 +92,20 @@ Some small projects to practice Android Basics with Kotlin for beginners. Every 
 
 - [MVC Android](https://medium.com/upday-devs/android-architecture-patterns-part-1-model-view-controller-3baecef5f2b6)
 
+# Android Architecture References
+- [Code - Android Architecture Blueprints](https://github.com/android/architecture-samples)
+- [Blog - Android Architecture Pattern](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
+- [Blog - Android Architecture MVP](https://medium.com/upday-devs/android-architecture-patterns-part-2-model-view-presenter-8a6faaae14a5)
+- [Doc - Guide Android Architecture](https://developer.android.com/jetpack/guide)
+- [Talk Android Architecture Component](https://www.youtube.com/watch?v=pErTyQpA390)
+- [Talk Droidcon A Journey Through MV Wonderland](https://www.youtube.com/watch?v=QrbhPcbZv0I)
+- [Blog - Android Architecture Pattern](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
+
+
+
+
+
+
 
 # About Me APP
 - Simple layout with LinearLayout
