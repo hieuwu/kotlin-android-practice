@@ -20,6 +20,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -42,12 +43,15 @@ class SleepTrackerFragment : Fragment() {
      *
      * This function uses DataBindingUtil to inflate R.layout.fragment_sleep_quality.
      */
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
 
         // Get a reference to the binding object and inflate the fragment views.
         val binding: FragmentSleepTrackerBinding = DataBindingUtil.inflate(
-                inflater, R.layout.fragment_sleep_tracker, container, false)
+            inflater, R.layout.fragment_sleep_tracker, container, false
+        )
 
         val application = requireNotNull(this.activity).application
 
@@ -56,16 +60,19 @@ class SleepTrackerFragment : Fragment() {
         val viewModelFactory = SleepTrackerViewModelFactory(dataSource, application)
 
         val sleepTrackerViewModel =
-                ViewModelProvider(
-                        this, viewModelFactory).get(SleepTrackerViewModel::class.java)
+            ViewModelProvider(
+                this, viewModelFactory
+            ).get(SleepTrackerViewModel::class.java)
 
         binding.sleepTrackerViewModel = sleepTrackerViewModel
 
-        val adapter = SleepNightAdapter()
+        val adapter = SleepNightAdapter(SleepNightListener { nightId ->
+            sleepTrackerViewModel.onSleepNightClicked(nightId)
+        })
         binding.sleepList.adapter = adapter
 
         sleepTrackerViewModel.nights.observe(viewLifecycleOwner, Observer {
-            it?.let{
+            it?.let {
                 adapter.submitList(it)
             }
         })
@@ -77,9 +84,9 @@ class SleepTrackerFragment : Fragment() {
         sleepTrackerViewModel.showSnackBarEvent.observe(viewLifecycleOwner, Observer {
             if (it == true) { // Observed state is true.
                 Snackbar.make(
-                        requireActivity().findViewById(android.R.id.content),
-                        getString(R.string.cleared_message),
-                        Snackbar.LENGTH_SHORT // How long to display the message.
+                    requireActivity().findViewById(android.R.id.content),
+                    getString(R.string.cleared_message),
+                    Snackbar.LENGTH_SHORT // How long to display the message.
                 ).show()
                 // Reset state to make sure the snackbar is only shown once, even if the device
                 // has a configuration change.
@@ -98,11 +105,22 @@ class SleepTrackerFragment : Fragment() {
                 // followed by back.
                 // Also: https://stackoverflow.com/questions/28929637/difference-and-uses-of-oncreate-oncreateview-and-onactivitycreated-in-fra
                 this.findNavController().navigate(
-                        SleepTrackerFragmentDirections
-                                .actionSleepTrackerFragmentToSleepQualityFragment(night.nightId))
+                    SleepTrackerFragmentDirections
+                        .actionSleepTrackerFragmentToSleepQualityFragment(night.nightId)
+                )
                 // Reset state to make sure we only navigate once, even if the device
                 // has a configuration change.
                 sleepTrackerViewModel.doneNavigating()
+            }
+        })
+
+        sleepTrackerViewModel.navigateToSleepDataQuality.observe(viewLifecycleOwner, Observer { night ->
+            night?.let {
+                this.findNavController().navigate(
+                    SleepTrackerFragmentDirections
+                        .actionSleepTrackerFragmentToSleepDetailFragment(night)
+                )
+                sleepTrackerViewModel.onSleepDataQualityNavigated()
             }
         })
 
